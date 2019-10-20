@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LabeledTextView">
+        <attr name="label_text" format="string" />
+        <attr name="content_text" format="string"/>
+        <attr name="label_all_caps" format="boolean"/>
+        <attr name="label_single_line" format="boolean"/>
+    </declare-styleable>
+</resources>
