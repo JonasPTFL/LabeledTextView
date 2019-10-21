@@ -19,7 +19,7 @@ allprojects {
 Add this in your app _build.gradle_ to your dependecies:
 ```
 dependencies {
-    implementation 'com.github.JonasPTFL:LabeledTextView:v1.0.0-alpha'
+    implementation 'com.github.JonasPTFL:LabeledTextView:v1.0.1'
 }
 ```
 
