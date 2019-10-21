@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <de.pollpeter.jonas.labeledtextview.LabeledTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:content_text="This LabeledTextView was created by xml"
+        app:label_text="xml-LabeledTextView" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <de.pollpeter.jonas.labeledtextview.LabeledTextView
+        android:id="@+id/codeLabeledTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <de.pollpeter.jonas.labeledtextview.LabeledTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:content_text="You can change color, padding, and other style attributes, which will comming soon!"
+        app:label_text="styled"
+        app:label_color="@android:color/holo_blue_dark"
+        app:content_padding_left="50dp"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <de.pollpeter.jonas.labeledtextview.LabeledTextView
+        android:id="@+id/textStyleDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:content_text="This is another demo for the customizability"
+        app:label_all_caps="false"
+        app:label_bold="false"
+        app:label_text="style-demo"/>
+</LinearLayout>

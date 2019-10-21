@@ -5,5 +5,8 @@
         <attr name="content_text" format="string"/>
         <attr name="label_all_caps" format="boolean"/>
         <attr name="label_single_line" format="boolean"/>
+        <attr name="content_padding_left" format="dimension"/>
+        <attr name="label_color" format="color"/>
+        <attr name="label_bold" format="boolean"/>
     </declare-styleable>
 </resources>
