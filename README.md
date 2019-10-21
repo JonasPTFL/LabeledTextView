@@ -41,7 +41,20 @@ to your root layout and then you can start customize `LabeledTextView`
         app:content_text="This is the content-text"
         app:content_padding_left="@dimen/your_content_padding_left" />
 ```
+Alternative you can style your `LabeledTextView` programmatically and dynamically with these methods:
 
+|   	| Method                                 	| Description                                                                          	|
+|---	|----------------------------------------	|--------------------------------------------------------------------------------------	|
+| 1 	| setContentPaddingLeft(int paddingLeft) 	| apply specific padding to content view to let it look like structered                	|
+| 2 	| setContentText(String text)            	| changes text under label(content-text) to new text                                   	|
+| **3** 	| **setContentTextStyle(int styleRes)**      	| **apply custom textAppearance to content-text**                                          	|
+| 4 	| setLabelAllCaps(boolean allCaps)       	| true: label text is in all-caps(sometimes looks better), false: label text is normal 	|
+| 5 	| setLabelSingleLine(boolean singleLine) 	| true: label just allows single-line, false: label is without line-limit              	|
+| 6 	| setLabelBold(boolean bold)             	| true: label text is bold, false: label text is normal                                	|
+| 7 	| setLabelColor(int color)               	| apply custom color as label text-color                                               	|
+| 8 	| setLabelText(String text)              	| changes text of label(label-text) to new text                                        	|
+
+Tip: The **4th Method** is only programmatically available. You can't change `textappereance` using xml attributes! 
 
 ## Demo
 And then create nice labeled text views like shown above in my demo app:
