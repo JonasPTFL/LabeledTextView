@@ -23,5 +23,9 @@ dependencies {
 }
 ```
 
+And then create nice labeled text views like shown above in my demo app:
+<p align="center">
+  <img src="https://github.com/JonasPTFL/LabeledTextView/blob/master/screenshots/demo_scrrenshot.jpg?raw=true" height="500" title="demo-app-screenshot">
+</p>
 
 Have fun with creating textviews with styleable labels.
