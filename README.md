@@ -1,6 +1,10 @@
 # LabeledTextView - Library
 
+
+[![](https://jitpack.io/v/JonasPTFL/LabeledTextView.svg)](https://jitpack.io/#JonasPTFL/LabeledTextView)
+
 #### This is my simple and easy to use  `LabeledTextView` library!
+
 
 You can import this library by adding the following:
 Add this to your root _build.gradle_:
