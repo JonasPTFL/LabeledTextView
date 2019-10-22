@@ -1,4 +1,4 @@
-# LabeledTextView - Open source Library
+# LabeledTextView - Open source Android Library
 
 
 [![](https://jitpack.io/v/JonasPTFL/LabeledTextView.svg)](https://jitpack.io/#JonasPTFL/LabeledTextView)
