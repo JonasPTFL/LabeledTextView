@@ -54,7 +54,7 @@ Alternative you can style your `LabeledTextView` programmatically and dynamicall
 | 7 	| setLabelColor(int color)               	| apply custom color as label text-color                                               	|
 | 8 	| setLabelText(String text)              	| changes text of label(label-text) to new text                                        	|
 
-Tip: The **4th Method** is only programmatically available. You can't change `textappereance` using xml attributes! 
+Tip: The **3th Method** is only programmatically available. You can't change `textappereance` using xml attributes! 
 
 ## Demo
 And then create nice labeled text views like shown above in my demo app:
